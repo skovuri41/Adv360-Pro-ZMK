@@ -39,16 +39,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        jk-escape {
-            bindings = <&kp ESC>;
-            key-positions = <40 41>;
-            timeout-ms = <51>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
     };
