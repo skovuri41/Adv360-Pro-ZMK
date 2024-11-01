@@ -45,7 +45,7 @@
         jk-escape {
             bindings = <&kp ESC>;
             key-positions = <40 41>;
-            timeout-ms = <30>;
+            timeout-ms = <51>;
             layers = <0>;
         };
     };
