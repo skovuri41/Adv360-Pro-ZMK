@@ -146,7 +146,7 @@
 &kp F1  &kp F2  &kp F3       &kp F4        &kp F5              &kp F6  &tog 1                                          &mo 3             &kp F7  &kp F8           &kp F9             &kp F10         &kp F11     &kp F12
 &trans  &trans  &trans       &trans        &trans              &trans  &none                                           &none             &trans  &trans           &trans             &trans          &trans      &trans
 &trans  &trans  &kp C_SLEEP  &trans        &trans              &trans  &none   &trans      &trans      &trans  &trans  &none             &trans  &trans           &trans             &kp C_AL_LOCK   &trans      &trans
-&trans  &trans  &trans       &trans        &trans              &trans                      &trans      &trans                            &trans  &trans           &trans             &trans          &trans      &trans
+&trans  &trans  &trans       &trans        &trans              &trans                      &trans      &trans                            &tog 4  &tog 5           &trans             &trans          &trans      &trans
 &trans  &trans  &trans       &kp C_REWIND  &kp C_FAST_FORWARD          &trans  &kp C_MUTE  &trans      &trans  &trans  &kp C_PLAY_PAUSE          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &kp C_NEXT  &trans
             >;
         };
