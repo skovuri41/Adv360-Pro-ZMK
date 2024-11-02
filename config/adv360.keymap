@@ -44,7 +44,7 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_2 {
+        td_mt_2: tap_dance_mt_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_2";
             #binding-cells = <0>;
@@ -52,7 +52,7 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_3 {
+        td_mt_3: tap_dance_mt_3 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_3";
             #binding-cells = <0>;
@@ -60,7 +60,7 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_4 {
+        td_mt_4: tap_dance_mt_4 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_4";
             #binding-cells = <0>;
@@ -68,14 +68,14 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_5 {
+        td_mt_5: tap_dance_mt_5 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_5";
             #binding-cells = <0>;
             bindings = <&mt RCTRL ;>, <&kp ;>;
             tapping-term-ms = <310>;
         };
-        td_mt_0: tap_dance_mt_6 {
+        td_mt_6: tap_dance_mt_6 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_6";
             #binding-cells = <0>;
@@ -83,7 +83,7 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_7 {
+        td_mt_7: tap_dance_mt_7 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_7";
             #binding-cells = <0>;
@@ -91,7 +91,7 @@
             tapping-term-ms = <310>;
         };
 
-        td_mt_0: tap_dance_mt_8 {
+        td_mt_8: tap_dance_mt_8 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_8";
             #binding-cells = <0>;
