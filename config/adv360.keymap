@@ -2,9 +2,28 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
+
+// Just some short versions
+#define _PAUSE &kp PAUSE_BREAK
+
+// Mouse movement.
+#define _MSU &mmv MOVE_UP
+#define _MSD &mmv MOVE_DOWN
+#define _MSL &mmv MOVE_LEFT
+#define _MSR &mmv MOVE_RIGHT
+
+// Mouse wheel movement.
+#define _MWU &mwh SCROLL_UP
+#define _MWD &mwh SCROLL_DOWN
+#define _MWL &mwh SCROLL_LEFT
+#define _MWR &mwh SCROLL_RIGHT
+
+// Mouse buttons
+#define _MBL &mkp MB1
+#define _MBR &mkp MB2
+#define _MBM &mkp MB3
 
 / {
     behaviors {
@@ -174,8 +193,8 @@
         mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  _MSL       _MSD     _MSU     _MSR  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  _MWL       _MWD     _MWU     _MWR  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
 &mo 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans     &trans  &trans
             >;
