@@ -187,11 +187,11 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans      &trans         &trans       &trans     &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &tog 4  &kp INSERT  &kp K_PASTE    &kp K_COPY   &kt K_CUT  &kp K_UNDO  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &kp K_REDO  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans      &trans
-&mo 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans       &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans      &trans          &trans         &trans        &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &tog 4  &kp INSERT  &kp C_AC_PASTE  &kp C_AC_COPY  &kt C_AC_CUT  &kp C_AC_UNDO  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &kp LEFT    &kp DOWN        &kp UP         &kp RIGHT     &kp C_AC_REDO  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP    &kp END       &trans         &trans
+&mo 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans              &trans          &trans         &trans        &trans         &trans
             >;
         };
 
