@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_1";
             #binding-cells = <0>;
-            bindings = <&mt LCTRL a>, <&kp a>;
+            bindings = <&mt LCTRL A>, <&kp A>;
 
             tapping-term-ms = <310>;
         };
@@ -51,7 +51,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_2";
             #binding-cells = <0>;
-            bindings = <&mt LALT s>, <&kp s>;
+            bindings = <&mt LALT S>, <&kp S>;
 
             tapping-term-ms = <310>;
         };
@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_3";
             #binding-cells = <0>;
-            bindings = <&mt LCMD d>, <&kp d>;
+            bindings = <&mt LCMD D>, <&kp D>;
 
             tapping-term-ms = <310>;
         };
@@ -69,7 +69,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_4";
             #binding-cells = <0>;
-            bindings = <&mt LSHIFT f>, <&kp f>;
+            bindings = <&mt LSHIFT F>, <&kp F>;
 
             tapping-term-ms = <310>;
         };
@@ -78,7 +78,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_5";
             #binding-cells = <0>;
-            bindings = <&mt RCTRL ;>, <&kp ;>;
+            bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
 
             tapping-term-ms = <310>;
         };
@@ -87,7 +87,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_6";
             #binding-cells = <0>;
-            bindings = <&mt RALT l>, <&kp l>;
+            bindings = <&mt RIGHT_ALT L>, <&kp L>;
 
             tapping-term-ms = <310>;
         };
@@ -96,7 +96,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_7";
             #binding-cells = <0>;
-            bindings = <&mt RCMD k>, <&kp k>;
+            bindings = <&mt RCMD K>, <&kp K>;
 
             tapping-term-ms = <310>;
         };
@@ -105,7 +105,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_8";
             #binding-cells = <0>;
-            bindings = <&mt RSHIFT j>, <&kp j>;
+            bindings = <&mt RSHIFT J>, <&kp J>;
 
             tapping-term-ms = <310>;
         };
