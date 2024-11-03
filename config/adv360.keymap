@@ -39,87 +39,56 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_0";
             tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LCMD BACKSPACE>, <&kp BACKSPACE>;
         };
-
         td_mt_1: tap_dance_mt_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_1";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LCTRL A>, <&kp A>;
         };
-
         td_mt_2: tap_dance_mt_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_2";
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LALT S>, <&kp S>;
         };
-
         td_mt_3: tap_dance_mt_3 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_3";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LCMD D>, <&kp D>;
         };
-
         td_mt_4: tap_dance_mt_4 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_4";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LSHIFT F>, <&kp F>;
         };
-
         td_mt_5: tap_dance_mt_5 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_5";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
         };
-
         td_mt_6: tap_dance_mt_6 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_6";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt RIGHT_ALT L>, <&kp L>;
-        };
 
+            tapping-term-ms = <310>;
+        };
         td_mt_7: tap_dance_mt_7 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_7";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt RCMD K>, <&kp K>;
         };
-
         td_mt_8: tap_dance_mt_8 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_8";
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt RSHIFT J>, <&kp J>;
         };
