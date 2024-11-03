@@ -43,7 +43,6 @@
             flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt LCMD BACKSPACE>, <&kp BACKSPACE>;
-            tapping-term-ms = <200>;
         };
 
         td_mt_1: tap_dance_mt_1 {
@@ -103,7 +102,6 @@
             flavor = "tap-preferred";
             #binding-cells = <0>;
             bindings = <&mt RIGHT_ALT L>, <&kp L>;
-            tapping-term-ms = <310>;
         };
 
         td_mt_7: tap_dance_mt_7 {
