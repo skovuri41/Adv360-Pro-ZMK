@@ -41,43 +41,48 @@
             tapping-term-ms = <200>;
             #binding-cells = <0>;
             bindings = <&mt LCMD BACKSPACE>, <&kp BACKSPACE>;
+            tapping-term-ms = <310>;
         };
         td_mt_1: tap_dance_mt_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_1";
             #binding-cells = <0>;
             bindings = <&mt LCTRL A>, <&kp A>;
+            tapping-term-ms = <310>;
         };
         td_mt_2: tap_dance_mt_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_2";
             #binding-cells = <0>;
             bindings = <&mt LALT S>, <&kp S>;
+            tapping-term-ms = <310>;
         };
         td_mt_3: tap_dance_mt_3 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_3";
             #binding-cells = <0>;
             bindings = <&mt LCMD D>, <&kp D>;
+            tapping-term-ms = <310>;
         };
         td_mt_4: tap_dance_mt_4 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_4";
             #binding-cells = <0>;
             bindings = <&mt LSHIFT F>, <&kp F>;
+            tapping-term-ms = <310>;
         };
         td_mt_5: tap_dance_mt_5 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_5";
             #binding-cells = <0>;
             bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
+            tapping-term-ms = <310>;
         };
         td_mt_6: tap_dance_mt_6 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_6";
             #binding-cells = <0>;
             bindings = <&mt RIGHT_ALT L>, <&kp L>;
-
             tapping-term-ms = <310>;
         };
         td_mt_7: tap_dance_mt_7 {
@@ -85,12 +90,14 @@
             label = "td_mt_7";
             #binding-cells = <0>;
             bindings = <&mt RCMD K>, <&kp K>;
+            tapping-term-ms = <310>;
         };
         td_mt_8: tap_dance_mt_8 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_8";
             #binding-cells = <0>;
             bindings = <&mt RSHIFT J>, <&kp J>;
+            tapping-term-ms = <310>;
         };
     };
 
