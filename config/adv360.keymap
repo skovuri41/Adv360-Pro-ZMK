@@ -69,8 +69,6 @@
             label = "td_mt_1";
             #binding-cells = <0>;
             bindings = <&mt LCTRL A>, <&kp A>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_2: tap_dance_mt_2 {
@@ -78,8 +76,6 @@
             label = "td_mt_2";
             #binding-cells = <0>;
             bindings = <&mt LALT S>, <&kp S>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_3: tap_dance_mt_3 {
@@ -87,8 +83,6 @@
             label = "td_mt_3";
             #binding-cells = <0>;
             bindings = <&mt LCMD D>, <&kp D>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_4: tap_dance_mt_4 {
@@ -96,8 +90,6 @@
             label = "td_mt_4";
             #binding-cells = <0>;
             bindings = <&mt LSHIFT F>, <&kp F>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_5: tap_dance_mt_5 {
@@ -105,8 +97,6 @@
             label = "td_mt_5";
             #binding-cells = <0>;
             bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_6: tap_dance_mt_6 {
@@ -123,8 +113,6 @@
             label = "td_mt_7";
             #binding-cells = <0>;
             bindings = <&mt RCMD K>, <&kp K>;
-
-            tapping-term-ms = <310>;
         };
 
         td_mt_8: tap_dance_mt_8 {
@@ -132,8 +120,6 @@
             label = "td_mt_8";
             #binding-cells = <0>;
             bindings = <&mt RSHIFT J>, <&kp J>;
-
-            tapping-term-ms = <310>;
         };
     };
 
@@ -167,11 +153,11 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3       &kp F4        &kp F5              &kp F6  &tog 1                                          &mo 3             &kp F7  &kp F8           &kp F9             &kp F10         &kp F11     &kp F12
-&trans  &trans  &trans       &trans        &trans              &trans  &none                                           &none             &trans  &trans           &trans             &trans          &trans      &trans
-&trans  &trans  &kp C_SLEEP  &trans        &trans              &trans  &none   &trans      &trans      &trans  &trans  &none             &trans  &trans           &trans             &kp C_AL_LOCK   &trans      &trans
-&trans  &trans  &trans       &trans        &trans              &trans                      &trans      &trans                            &trans  &trans           &trans             &trans          &trans      &trans
-&trans  &trans  &trans       &kp C_REWIND  &kp C_FAST_FORWARD          &trans  &kp C_MUTE  &trans      &trans  &trans  &kp C_PLAY_PAUSE          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &kp C_NEXT  &trans
+&kp F1  &kp F2  &kp F3       &kp F4        &kp F5              &kp F6  &tog 1                                          &mo 3             &kp F7  &kp F8           &kp F9             &kp F10               &kp F11     &kp F12
+&trans  &trans  &trans       &trans        &trans              &trans  &none                                           &none             &trans  &trans           &trans             &trans                &trans      &trans
+&trans  &trans  &kp C_SLEEP  &trans        &trans              &trans  &none   &trans      &trans      &trans  &trans  &none             &trans  &trans           &trans             &kp C_AL_SCREENSAVER  &trans      &trans
+&trans  &trans  &trans       &trans        &trans              &trans                      &trans      &trans                            &trans  &trans           &trans             &trans                &trans      &trans
+&trans  &trans  &trans       &kp C_REWIND  &kp C_FAST_FORWARD          &trans  &kp C_MUTE  &trans      &trans  &trans  &kp C_PLAY_PAUSE          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PREVIOUS        &kp C_NEXT  &trans
             >;
         };
 
@@ -187,11 +173,11 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans  &trans                                      &trans  &trans      &trans         &trans       &trans     &trans      &trans
-&trans  &trans  &trans     &trans     &trans     &trans  &trans                                      &tog 4  &kp INSERT  &kp K_PASTE    &kp K_COPY   &kt K_CUT  &kp K_UNDO  &trans
-&trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &kp K_REDO  &trans
-&trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                  &trans      &trans                  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans      &trans
-&mo 2   &trans  &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans       &trans     &trans      &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans                                      &trans  &trans      &trans         &trans       &trans     &trans          &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans                                      &tog 4  &kp INSERT  &kp LC(V)      &kp LC(C)    &kt LC(X)  &kp SLASH       &trans
+&trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &kp LS(K_REDO)  &trans
+&trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                  &trans      &trans                  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans          &trans
+&to 2   &trans  &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans       &trans     &trans          &trans
             >;
         };
 
@@ -201,7 +187,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &tog 4  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &trans  &mkp MB5   &mkp MB4   &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&mo 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans     &trans  &trans
+&to 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans     &trans  &trans
             >;
         };
     };
