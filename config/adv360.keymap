@@ -10,26 +10,6 @@
 
 #define _PAUSE &kp PAUSE_BREAK
 
-// Mouse movement.
-
-#define _MSU &mmv MOVE_UP
-#define _MSD &mmv MOVE_DOWN
-#define _MSL &mmv MOVE_LEFT
-#define _MSR &mmv MOVE_RIGHT
-
-// Mouse wheel movement.
-
-#define _MWU &mwh SCROLL_UP
-#define _MWD &mwh SCROLL_DOWN
-#define _MWL &mwh SCROLL_LEFT
-#define _MWR &mwh SCROLL_RIGHT
-
-// Mouse buttons
-
-#define _MBL &mkp MB1
-#define _MBR &mkp MB2
-#define _MBM &mkp MB3
-
 / {
     behaviors {
         #include "macros.dtsi"
@@ -50,7 +30,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick_tap_ms = <50>;
+            quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
