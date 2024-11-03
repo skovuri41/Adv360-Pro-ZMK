@@ -10,6 +10,8 @@
 
 #define _PAUSE &kp PAUSE_BREAK
 
+&mt { quick-tap-ms = <0>; };
+
 / {
     behaviors {
         #include "macros.dtsi"
