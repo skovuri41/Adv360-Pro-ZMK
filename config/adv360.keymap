@@ -174,7 +174,7 @@
 &trans  &trans  &trans     &trans     &trans     &trans  &trans                                      &tog 4  &kp INSERT  &kp LC(V)      &kp LC(C)    &kt LC(X)  &kp SLASH       &trans
 &trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &kp LS(K_REDO)  &trans
 &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                  &trans      &trans                  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans          &trans
-&to 2   &trans  &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans       &trans     &trans          &trans
+&trans  &trans  &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans       &trans     &trans          &trans
             >;
         };
 
@@ -184,7 +184,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &tog 4  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &tog 5  &trans  &mkp MB5   &mkp MB4   &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&to 2   &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans     &trans  &trans
             >;
         };
     };
