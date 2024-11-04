@@ -10,7 +10,11 @@
 
 #define _PAUSE &kp PAUSE_BREAK
 
-&mt { flavor = "tap-preferred"; };
+&mt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+};
 
 / {
     behaviors {
