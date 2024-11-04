@@ -45,7 +45,6 @@
         td_mt_0: tap_dance_mt_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mt_0";
-            tapping-term-ms = <200>;
             #binding-cells = <0>;
             bindings = <&mt LCMD BACKSPACE>, <&kp BACKSPACE>;
             tapping-term-ms = <310>;
