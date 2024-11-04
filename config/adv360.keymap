@@ -56,7 +56,8 @@
             label = "td_mt_1";
             #binding-cells = <0>;
             bindings = <&mt LCTRL A>, <&kp A>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -65,7 +66,8 @@
             label = "td_mt_2";
             #binding-cells = <0>;
             bindings = <&mt LALT S>, <&kp S>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -74,7 +76,8 @@
             label = "td_mt_3";
             #binding-cells = <0>;
             bindings = <&mt LCMD D>, <&kp D>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -83,7 +86,8 @@
             label = "td_mt_4";
             #binding-cells = <0>;
             bindings = <&mt LSHIFT F>, <&kp F>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -92,7 +96,8 @@
             label = "td_mt_5";
             #binding-cells = <0>;
             bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -101,7 +106,8 @@
             label = "td_mt_6";
             #binding-cells = <0>;
             bindings = <&mt RIGHT_ALT L>, <&kp L>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -110,7 +116,8 @@
             label = "td_mt_7";
             #binding-cells = <0>;
             bindings = <&mt RCMD K>, <&kp K>;
-
+     quick-tap-ms = <200>;
+     require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
 
@@ -119,7 +126,8 @@
             label = "td_mt_8";
             #binding-cells = <0>;
             bindings = <&mt RSHIFT J>, <&kp J>;
-
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
             tapping-term-ms = <310>;
         };
     };
