@@ -2,13 +2,8 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
-
-// Just some short versions
-
-#define _PAUSE &kp PAUSE_BREAK
 
 &mt {
     flavor = "tap-preferred";
@@ -18,7 +13,7 @@
 
 / {
     behaviors {
-        #include "macros.dtsi"
+      #include "macros.dtsi"
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
@@ -49,71 +44,7 @@
             bindings = <&mt LCMD BACKSPACE>, <&kp BACKSPACE>;
             tapping-term-ms = <310>;
         };
-
-        td_mt_1: tap_dance_mt_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_1";
-            #binding-cells = <0>;
-            bindings = <&mt LCTRL A>, <&kp A>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_2: tap_dance_mt_2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_2";
-            #binding-cells = <0>;
-            bindings = <&mt LALT S>, <&kp S>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_3: tap_dance_mt_3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_3";
-            #binding-cells = <0>;
-            bindings = <&mt LCMD D>, <&kp D>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_4: tap_dance_mt_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_4";
-            #binding-cells = <0>;
-            bindings = <&mt LSHIFT F>, <&kp F>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_5: tap_dance_mt_5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_5";
-            #binding-cells = <0>;
-            bindings = <&mt RCTRL SEMICOLON>, <&kp SEMICOLON>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_6: tap_dance_mt_6 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_6";
-            #binding-cells = <0>;
-            bindings = <&mt RIGHT_ALT L>, <&kp L>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_7: tap_dance_mt_7 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_7";
-            #binding-cells = <0>;
-            bindings = <&mt RCMD K>, <&kp K>;
-            tapping-term-ms = <310>;
-        };
-
-        td_mt_8: tap_dance_mt_8 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_mt_8";
-            #binding-cells = <0>;
-            bindings = <&mt RSHIFT J>, <&kp J>;
-            tapping-term-ms = <310>;
-        };
-    };
+   };
 
     combos { compatible = "zmk,combos"; };
 
@@ -129,7 +60,7 @@
 &kp TAB                  &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &tog 4     &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
 &mt LCTRL ESCAPE  &hm LCTRL A  &hm LEFT_ALT S  &hm LCMD D  &hm LSHIFT F  &kp G   &none     &kp LCTRL  &sk LALT      &kp LGUI   &kp RCTRL  &tog 5     &kp H   &hm RSHIFT J  &hm RCMD K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &kp SQT
 &kp LSHFT                &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2                    &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &td_mt_0  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP    &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&mo 2                    &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &hm LCMD BACKSPACE  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP    &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
