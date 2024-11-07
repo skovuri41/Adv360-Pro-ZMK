@@ -97,7 +97,7 @@
         special_layer {
             bindings = <
 &kp EQUAL        &kp N1           &kp N2             &kp N3              &kp N4           &kp N5           &tog 1                                                             &mo 3      &kp N6           &kp N7           &kp N8           &kp N9               &kp N0           &kp MINUS
-&kp TAB          &kp KP_NUMBER_1  &kp KP_NUMBER_2    &kp KP_NUMBER_3     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &none                                                              &trans     &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9      &kp KP_NUMBER_0  &kp BSLH
+&kp TAB          &kp N1           &kp N2             &kp N3              &kp N4           &kp N5           &none                                                              &trans     &kp N6           &kp N7           &kp N8           &kp N9               &kp N0           &kp BSLH
 &mt LCTRL CARET  &hm LCTRL LBKT   &hm LEFT_ALT RBKT  &hm LCMD LPAR       &hm LSHIFT RPAR  &kp EXCL         &none               &kp LCTRL  &sk LALT      &kp LGUI   &kp RCTRL  &to 0      &kp LEFT         &hm RSHIFT DOWN  &hm RCMD UP      &hm RIGHT_ALT RIGHT  &hm RCTRL MINUS  &kp DOLLAR
 &kp LSHFT        &kp AMPERSAND    &kp AT             &kp RS(LEFT_BRACE)  &kp RIGHT_BRACE  &kp PIPE                                        &kp HOME      &kp PG_UP                        &kp UNDER        &kp ASTRK        &kp HASH         &kp PERCENT          &kp BSLH         &kp RSHFT
 &mo 2            &kp GRAVE        &kp CAPS           &kp LEFT            &kp RIGHT                         &hm LCMD BACKSPACE  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                   &kp UP           &kp DOWN         &kp LBKT             &kp RBKT         &mo 2
