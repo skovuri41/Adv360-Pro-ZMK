@@ -158,6 +158,7 @@
                  ;
          };
          lmwm: lmwm {
+             compatible = "zmk,behavior-macro";
              #binding-cells = <2>;
              bindings = <&sl>, <&sk>;
          };
