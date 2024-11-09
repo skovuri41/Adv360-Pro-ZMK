@@ -115,7 +115,7 @@
         };
 
         wm_spce_bslash {
-            bindings = <&kp LG(LS(TAB))>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <70 27>;
             layers = <0>;
         };
