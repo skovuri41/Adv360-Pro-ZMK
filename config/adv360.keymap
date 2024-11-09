@@ -158,14 +158,8 @@
                  ;
          };
          lmwm: lmwm {
-             compatible = "zmk,behavior-macro";
-             wait-ms = <0>;
-             tap-ms = <0>;
-             #binding-cells = <0>;
-             bindings
-                 = <&sl 5>
-                 , <&sk LCMD>
-                 ;
+             #binding-cells = <2>;
+             bindings = <&sl>, <&sk>;
          };
     };
 
@@ -176,7 +170,7 @@
             bindings = <
 &kp EQUAL         &kp N1       &kp N2          &kp N3      &kp N4        &kp N5  &tog 1                                                         &mo 3         &kp N6  &kp N7        &kp N8      &kp N9           &kp N0               &kp MINUS
 &kp TAB           &kp Q        &kp W           &kp E       &kp R         &kp T   &none                                                          &trans        &kp Y   &kp U         &kp I       &kp O            &kp P                &kp BSLH
-&mt LCTRL ESCAPE  &hm LCTRL A  &hm LEFT_ALT S  &hm LCMD D  &hm LSHIFT F  &kp G   &lmwm        &mo 4    &sk LALT      &kp LCMD   &mo 4      &lmwm     &kp H   &hm RSHIFT J  &hm RCMD K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &kp SQT
+&mt LCTRL ESCAPE  &hm LCTRL A  &hm LEFT_ALT S  &hm LCMD D  &hm LSHIFT F  &kp G   &lmwm 5 LCMD        &mo 4    &sk LALT      &kp LCMD   &mo 4    &lmwm 5 LCMD  &kp H   &hm RSHIFT J  &hm RCMD K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &kp SQT
 &kp LSHFT         &kp Z        &kp X           &kp C       &kp V         &kp B                              &kp HOME      &kp PG_UP                           &kp N   &kp M         &kp COMMA   &kp DOT          &kp FSLH             &kp RSHFT
 &mo 2             &kp GRAVE    &kp CAPS        &kp LEFT    &kp RIGHT             &spl 4 BACKSPACE  &kp DEL  &kp END       &kp PG_DN  &kp ENTER  &spl 4 SPACE          &kp UP        &kp DOWN    &kp LBKT         &kp RBKT             &mo 2
             >;
