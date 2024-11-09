@@ -62,8 +62,25 @@
 
         wm_bspce_1 {
             bindings = <&kp LG(N1)>;
+            key-positions = <65 29>;
+            layers = <0>;
+        };
+
+        wm_bspce_1 {
+            bindings = <&kp LG(N2)>;
+            key-positions = <65 30>;
+            layers = <0>;
+        };
+
+        wm_bspce_3 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+
+        wm_bspce_tab {
+            bindings = <&kp LG(TAB)>;
             key-positions = <65 14>;
-            slow-release;
             layers = <0>;
         };
     };
