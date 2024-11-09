@@ -65,19 +65,51 @@
             key-positions = <65 29>;
             layers = <0>;
         };
-
         wm_bspce_2 {
             bindings = <&kp LG(N2)>;
             key-positions = <65 30>;
             layers = <0>;
         };
-
         wm_bspce_3 {
             bindings = <&kp LG(NUMBER_3)>;
             key-positions = <65 31>;
             layers = <0>;
         };
-
+        wm_bspce_4 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_bspce_5 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_spce_6 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_spce_7 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_spce_8 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_spce_9 {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
+        wm_spce_bslash {
+            bindings = <&kp LG(NUMBER_3)>;
+            key-positions = <65 31>;
+            layers = <0>;
+        };
         wm_bspce_tab {
             bindings = <&kp LG(TAB)>;
             key-positions = <65 14>;
