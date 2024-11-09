@@ -161,7 +161,7 @@
              compatible = "zmk,behavior-macro-two-param";
              wait-ms = <0>;
              tap-ms = <0>;
-             #binding-cells = <2>;
+             #binding-cells = <0>;
              bindings
                  = <&sl 5>
                  , <&sk LCMD>
