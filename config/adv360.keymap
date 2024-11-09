@@ -86,7 +86,7 @@
 
         wm_bspce_5 {
             bindings = <&kp LG(N5)>;
-            key-positions = <65 34>;
+            key-positions = <65 33>;
             layers = <0>;
         };
 
