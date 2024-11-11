@@ -185,11 +185,11 @@
 
         wm_layer {
             bindings = <
-&trans         &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LG(LCTRL)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sk LG(LALT)      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LG(LSHFT)  &trans  &trans  &trans  &trans  &trans                  &trans            &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans  &trans  &trans  &trans          &trans  &trans  &trans            &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans         &trans         &trans  &trans     &trans     &trans  &trans                                                   &trans         &trans           &trans         &trans  &trans       &trans  &trans
+&trans         &kp LG(LS(Q))  &trans  &trans     &trans     &trans  &trans                                                   &trans         &trans           &trans         &trans  &trans       &trans  &trans
+&sk LG(LCTRL)  &kp LG(LC(A))  &trans  &trans     &kp LG(F)  &trans  &trans  &trans  &sk LG(LALT)      &trans  &trans         &trans         &kp LS(LG(TAB))  &trans         &trans  &kp LG(TAB)  &trans  &trans
+&sk LG(LSHFT)  &trans         &trans  &kp LG(C)  &trans     &trans                  &trans            &trans                                &kp LS(N)        &kp LG(LC(M))  &trans  &trans       &trans  &trans
+&trans         &trans         &trans  &trans     &trans             &trans  &trans  &trans            &trans  &kp LG(ENTER)  &kp LG(SPACE)                   &trans         &trans  &trans       &trans  &trans
             >;
         };
     };
