@@ -10,6 +10,8 @@
     require-prior-idle-ms = <125>;
 };
 
+&caps_word { mods = <(MOD_RSFT|MOD_LSFT)>; };
+
 / {
     behaviors {
         #include "macros.dtsi"
@@ -61,6 +63,8 @@
             label = "DSHIFT_CAPS_WORD";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&caps_word>;
+
+            tapping-term-ms = <310>;
         };
     };
 
